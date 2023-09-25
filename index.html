@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        #circle {
+           width: 250px;
+           height: 250px;
+           border: 1px solid black;
+           border-radius: 50%;
+           margin: auto;
+          
+        }
+        main{
+            text-align: center;
+
+        }
+        li {
+            display: inline;
+            list-style-type:none;;
+        }
+     </style>
+
+</head>
+<body>
+    <p>What is javaScript event?</p>
+    <p>ANS--In JavaScript, an event is an action or occurrence that takes place in the browser, such as a user clicking a button, moving the mouse, typing on the keyboard, or the loading of a web page. JavaScript events are used to trigger specific code or functions in response to these actions, allowing you to create interactive and dynamic web applications.</p>
+    <p>can you explain diffrent types of event available in javascript?</p>
+    <p>ANS--Click Event,Mouseover Event,Mouseout Event,Keydown Event,Keyup Event,Submit Event</p>
+    <p>how is an event triggered or fired</p>
+    <p>ANS---The most common way events are triggered is through user interactions, such as clicking, hovering, typing, and scrolling. When a user performs one of these actions, the corresponding event is fired. For example:
+
+        A click event is fired when a user clicks on a button or a link.
+        A mouseover event is fired when the mouse cursor moves over an HTML element.
+        A keydown event is fired when a key on the keyboard is pressed down.</p>
+    <p> differencee between an Event Handler and eventlistenerr?</p>
+    <p>ANS-An event handler is a piece of JavaScript code that is directly assigned to an HTML element's attribute. This means the code is written inline within the HTML markup.
+        and  Event listeners allow for a cleaner separation of HTML structure (content) and JavaScript behavior (functionality). Event listeners are added to elements from JavaScript code rather than within the HTML markup.
+
+    </p>
+    <p >can you give me some examples of HTML Dom event</p>
+    <p>Ans--Click Event (click): This event is triggered when an element is clicked with the mouse pointer.</p>
+    <main>
+        <h1>Colorify</h1>
+        <p>lets color it!!</p>
+        <div id="circle"></div>
+        <div>
+            <button onclick="changeRed()">RED</button>
+            <button onclick="changeGreen()">GREEN</button>
+            <button onclick="changeYellow()">YELLOW</button>
+            <button onclick="changeRandom()">RANDOM</button>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
